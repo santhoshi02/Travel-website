@@ -1,0 +1,74 @@
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+
+.slide {
+    text-align: center;
+}
+
+.slide:first-child {
+    justify-self: flex-start;
+}
+
+.slide:last-child {
+    justify-self: flex-end;
+}
+
+  .form-button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* No border */
+   
+    padding: 50px 50px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No decoration */
+    display: inline-block; /* Make it a block element */
+    font-size: 40px; /* Set the font size */
+    margin: 7px 7px; /* Add some margin */
+    cursor: pointer; /* Make the cursor a pointer on hover */
+    border-radius: 12px; /* Rounded corners */
+  }
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .signup-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 
+  
